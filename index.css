@@ -1,0 +1,33 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #90e0ef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+form > input,
+form > button {
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #ff9f1c;
+}
+li {
+  list-style-type: none;
+  text-transform: capitalize;
+}
+
+input:checked + label {
+  text-decoration: line-through;
+  color: #595959;
+}
